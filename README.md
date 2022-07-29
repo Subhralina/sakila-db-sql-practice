@@ -36,7 +36,7 @@ You can find more about the DB in the README.md of the repo.
 *	Add a middle_name column to the table actor. Position it between first_name and last_name.
 *	You realize that some of these actors have tremendously long last names. Change the data type of the middle_name column to blobs.
 *	Now delete the middle_name column.
-*List the last names of actors, as well as how many actors have that last name.
+* List the last names of actors, as well as how many actors have that last name.
 * List last names of actors and the number of actors who have that last name, but only for names that are shared by at least two actors
 *	Oh, no! The actor HARPO WILLIAMS was accidentally entered in the actor table as GROUCHO WILLIAMS, the name of Harpo’s second cousin’s husband’s yoga teacher. Write a query to fix the record.
 *	Perhaps we were too hasty in changing GROUCHO to HARPO. It turns out that GROUCHO was the correct name after all! In a single query, if the first name of the actor is currently HARPO, change it to GROUCHO. Otherwise, change the first name to MUCHO GROUCHO, as that is exactly what the actor will be with the grievous error. BE CAREFUL NOT TO CHANGE THE FIRST NAME OF EVERY ACTOR TO MUCHO GROUCHO, HOWEVER!
@@ -55,6 +55,6 @@ You can find more about the DB in the README.md of the repo.
 *	Write a query to display for each store its store ID, city, and country.
 *	List the top five genres in gross revenue in descending order.
 *	In your new role as an executive, you would like to have an easy way of viewing the Top five genres by gross revenue. Use the solution from the problem above to create a view. If you haven’t solved 7h, you can substitute another query to create a view.
-*	How would you display the view that you created in 8a?
+*	How would you display the view that you created in the previous question?
 *	You find that you no longer need the view top_five_genres. Write a query to delete it.
 	
